@@ -9,3 +9,15 @@
 body {
   font-family: 'Bebas Neue', Impact, sans-serif;
 }
+
+.boxes{
+display: flex;
+justify-content: center;
+}
+
+.box{
+  width: 25%;
+  padding: 5%;
+  margin: 5%;
+  border: 3px solid #6003C3;
+}
