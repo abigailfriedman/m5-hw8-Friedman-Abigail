@@ -70,6 +70,18 @@ h1{
   background-color: #A5FF01;
 }
 
+.score{
+  display: flex;
+  color: #6003C3;
+  font-size: 1.6em;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+#wins{
+ padding-right: 3%;
+}
+
 @media (min-width: 500px){
   h1{
     width: 40%;
@@ -91,6 +103,11 @@ h1{
 
   header{
    max-height: 150px;
+  }
+
+  .score{
+    font-size: 1.8em;
+    padding-top: 1%;
   }
 }
 
