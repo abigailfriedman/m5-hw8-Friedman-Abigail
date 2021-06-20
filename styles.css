@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+}
+
 :root {
   --primary-color: #6003C3;
   --white: #FFFFFF;
@@ -10,14 +14,92 @@ body {
   font-family: 'Bebas Neue', Impact, sans-serif;
 }
 
+header {
+  background-color: #6003C3;
+  color: #ffffff;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  resize: both;
+  text-align: center;
+}
+
+h1{
+  width: 60%; 
+  padding: 20px;
+  text-align: center;
+  font-size: 4em;
+}
+
+#message{
+  color:#6003C3;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 4% 4% 2% 4%;
+}
+
 .boxes{
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
 }
 
 .box{
-  width: 25%;
+  width: 100px;
+  text-align: center;
+  color: #6003C3;
+  font-size: 4em;
   padding: 5%;
-  margin: 5%;
-  border: 3px solid #6003C3;
+  margin: 2%;
+  border: 6px solid #6003C3;
+  box-shadow: 5px 6px 10px 4px  #888888;
+}
+
+#box-1{
+  background-color: #FCFF00;
+}
+
+#box-2{
+  background-color: #57FFC9;
+}
+
+#box-3{
+  background-color: #A5FF01;
+}
+
+@media (min-width: 500px){
+  h1{
+    width: 40%;
+  }
+
+  #message{
+    font-size: 2.5em;
+  }
+
+  .boxes{
+  flex-flow: row;
+  }
+}
+
+@media (min-width: 700px){
+  h1{
+    width: 30%;
+  }
+
+  header{
+   max-height: 150px;
+  }
+}
+
+@media (min-width: 1000px){
+  h1{
+    width: 15%;
+  }
+
+  #message{
+    padding: 2% 4% 0 4%;
+  }
 }

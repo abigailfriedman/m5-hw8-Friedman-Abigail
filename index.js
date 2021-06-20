@@ -12,20 +12,6 @@ var messageId = document.getElementById('message');
 var wins = document.getElementById('wins');
 var losses = document.getElementById('losses');
 // target all .box elements and attach a click event listener to each one using a loop
-//var boxesElement = document.querySelectorAll('box')
-
-//function boxClick(event) { 
-   // boxes.addEventListener("click", function()")
-//} 
-
-//for (i = 0; i < boxesElement.length; i++) {
-    //var box = boxesElement[i];
-    //box.onclick = boxClick
-//}
-
-//function boxClick () {
-   // console.log ("clicked");
-//}
 
 var boxesElement = document.querySelectorAll('.box')
 function boxClick(event) {
