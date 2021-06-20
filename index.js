@@ -24,14 +24,11 @@ function boxClick(event) {
     messageId.textContent = 'WINNER'
      }
     else {
-  
-    function lostNum () {
-        lose.innerHTML = losingMessage[Math.floor(math.random() * 3) ];
+        messageId.textContent = losingMessage[Math.floor(Math.random() * 3)];
     }
     }
 
 
-}
 for (i = 0; i < boxesElement.length; i++) {
     var box = boxesElement[i];
     box.onclick = boxClick

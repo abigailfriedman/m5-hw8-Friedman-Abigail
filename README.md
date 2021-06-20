@@ -6,3 +6,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://www.w3schools.com/jsref/jsref_random.asp
 https://www.w3schools.com/js/js_this.asp
 https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/
+http://jsfiddle.net/TKKBV/2/
+https://stackoverflow.com/questions/54259782/js-storing-a-function-as-a-variable
